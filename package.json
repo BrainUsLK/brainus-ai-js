@@ -1,0 +1,60 @@
+{
+  "name": "@brainus/ai",
+  "version": "0.1.1",
+  "description": "Official JavaScript/TypeScript SDK for Brainus AI - RAG-powered educational content API",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:once": "vitest run",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "brainus",
+    "ai",
+    "rag",
+    "education",
+    "api",
+    "sdk",
+    "typescript"
+  ],
+  "author": "Brainus Team <dev@brainus.lk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brainus/brainus-ai-js.git"
+  },
+  "homepage": "https://developer.brainus.lk",
+  "bugs": {
+    "url": "https://github.com/brainus/brainus-ai-js/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsup": "^8.2.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0",
+    "eslint": "^9.0.0"
+  }
+}
