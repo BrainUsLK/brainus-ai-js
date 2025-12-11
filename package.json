@@ -1,6 +1,6 @@
 {
   "name": "@brainus/ai",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Official JavaScript/TypeScript SDK for Brainus AI - RAG-powered educational content API",
   "type": "module",
   "main": "./dist/index.js",
@@ -43,11 +43,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BrainUsLK/brainus-ai-js.git"
+    "url": "https://github.com/brainuslk/brainus-ai-js.git"
   },
   "homepage": "https://developer.brainus.lk",
   "bugs": {
-    "url": "https://github.com/BrainUsLK/brainus-ai-js/issues"
+    "url": "https://github.com/brainuslk/brainus-ai-js/issues"
   },
   "dependencies": {},
   "devDependencies": {
