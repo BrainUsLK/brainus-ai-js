@@ -32,7 +32,7 @@ Full documentation, quick start guide, API reference, and examples are available
 
 - [Documentation](https://developers.brainus.lk/docs/sdks/javascript)
 - [Get API Key](https://developer.brainus.lk/dashboard/keys)
-- [Support](https://github.com/brainus/brainus-ai-js/issues)
+- [Support](https://github.com/BrainUsLK/brainus-ai-js/issues)
 - [Website](https://brainus.lk)
 - [Developer Portal](https://developer.brainus.lk)
 
